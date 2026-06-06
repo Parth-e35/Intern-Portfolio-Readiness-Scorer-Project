@@ -1,0 +1,9 @@
+streamlit
+pandas
+numpy
+requests
+scikit-learn
+plotly
+joblib
+PyPDF2
+python-docx

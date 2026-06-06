@@ -1,0 +1,56 @@
+{
+    "best_model": "Logistic Regression",
+    "features_used": [
+        "total_repositories_analyzed",
+        "language_count",
+        "readme_count",
+        "description_count",
+        "homepage_count",
+        "recent_repo_count",
+        "total_stars",
+        "total_forks",
+        "followers",
+        "readme_ratio",
+        "description_ratio",
+        "recent_activity_ratio",
+        "avg_stars_per_repo"
+    ],
+    "results": [
+        {
+            "model": "Logistic Regression",
+            "accuracy": 0.9474,
+            "precision": 0.9522,
+            "recall": 0.9474,
+            "f1_score": 0.9442,
+            "cv_f1_mean": 0.8691,
+            "cv_f1_std": 0.0548
+        },
+        {
+            "model": "Decision Tree",
+            "accuracy": 0.7895,
+            "precision": 0.8099,
+            "recall": 0.7895,
+            "f1_score": 0.7971,
+            "cv_f1_mean": 0.8053,
+            "cv_f1_std": 0.0814
+        },
+        {
+            "model": "Random Forest",
+            "accuracy": 0.9211,
+            "precision": 0.928,
+            "recall": 0.9211,
+            "f1_score": 0.9121,
+            "cv_f1_mean": 0.8345,
+            "cv_f1_std": 0.1046
+        },
+        {
+            "model": "SVM",
+            "accuracy": 0.8421,
+            "precision": 0.8596,
+            "recall": 0.8421,
+            "f1_score": 0.8478,
+            "cv_f1_mean": 0.7899,
+            "cv_f1_std": 0.0694
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+[
+    "total_repositories_analyzed",
+    "language_count",
+    "readme_count",
+    "description_count",
+    "homepage_count",
+    "recent_repo_count",
+    "total_stars",
+    "total_forks",
+    "followers",
+    "readme_ratio",
+    "description_ratio",
+    "recent_activity_ratio",
+    "avg_stars_per_repo"
+]
