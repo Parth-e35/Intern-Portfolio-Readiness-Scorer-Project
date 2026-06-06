@@ -1,0 +1,3 @@
+# Replace 'templates/' with your actual HTML folder path if different
+templates/* linguist-documentation
+*.html linguist-detectable=false
